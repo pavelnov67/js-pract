@@ -9,12 +9,13 @@ body {
 }
 
 main {
-    background-image: url(C:\Users\Pavel\Documents\GitHub\FrontMotoGymkhanaRoboBot\assets\1644914458_3-fikiwiki-com-p-kartinki-asfalta-3.jpg);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(C:\Users\Pavel\Documents\GitHub\FrontMotoGymkhanaRoboBot\assets\asphaltbackground.jpg);
+    background-size: contain;
 }
 
 input {
@@ -31,7 +32,6 @@ input {
 input:focus {
     outline: none;
     border: #4446bb;
-
 }
 
 .register-form-container {
