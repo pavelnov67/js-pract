@@ -2,7 +2,6 @@
   "name": "rabbit-mg",
   "version": "1.0.0",
   "description": "Frontend for Rabbit MG backend (Tg Bot).",
-  "main": "index.js",
   "scripts": {
     "test": "test"
   },
