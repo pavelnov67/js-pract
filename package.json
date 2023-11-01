@@ -1,0 +1,19 @@
+{
+  "name": "rabbit-mg",
+  "version": "1.0.0",
+  "description": "Frontend for Rabbit MG backend (Tg Bot).",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelnov67/FrontMotoGymkhanaRoboBot.git"
+  },
+  "author": "Pavel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelnov67/FrontMotoGymkhanaRoboBot/issues"
+  },
+  "homepage": "https://github.com/pavelnov67/FrontMotoGymkhanaRoboBot#readme"
+}
