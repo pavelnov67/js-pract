@@ -8,11 +8,6 @@ function checkForm(event) {
   let repass = el.repass.value;
   let state = el.state.value;
 
-  console.log(name);
-  console.log(pass);
-  console.log(repass);
-  console.log(state);
-
   let fail = "";
 
   if(name.length <3)
