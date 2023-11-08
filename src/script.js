@@ -36,3 +36,9 @@ function checkForm(event) {
       window.location = 'https://gymkhana-cup.ru/'
     }
 }
+ setInterval (my_func, 1000);
+ let counter = null;
+ function my_func() {
+  counter ++;
+  console.log('counter: ' + counter);
+ }
