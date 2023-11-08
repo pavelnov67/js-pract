@@ -36,9 +36,16 @@ function checkForm(event) {
       window.location = 'https://gymkhana-cup.ru/'
     }
 }
- setInterval (my_func, 1000);
+ let id = setInterval (my_func, 1000);
  let counter = null;
  function my_func() {
   counter ++;
   console.log('counter: ' + counter);
+
+  if(counter >= 10)
+    clearInterval(id);
  }
+
+ setTimeout(function(){
+  console.log("U spent 3 sec");
+ }, 3000);
